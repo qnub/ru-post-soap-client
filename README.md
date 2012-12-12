@@ -1,4 +1,4 @@
-Russian Post SOAP client v0.1
+Russian Post SOAP client v0.2
 =============================
 
 [Russian Post](http://www.russianpost.ru/) SOAP API client class
@@ -119,3 +119,7 @@ API
 * 16 - Внутренняя ошибка работы сервиса обмена данными
 * 17 - Время хранения ответа истекло, ответ был удален с сервера
 * 18 - Превышено максимально допустимое количество отправлений в запросе
+
+### В ролях
+
+* [Atorich](https://github.com/Atorich) - Полный список типов операций.
