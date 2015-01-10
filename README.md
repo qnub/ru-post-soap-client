@@ -1,6 +1,8 @@
 Russian Post SOAP client v0.2
 =============================
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/qnub/ru-post-soap-client?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [Russian Post](http://www.russianpost.ru/) SOAP API client class
 
 License: [LGPL v3](http://opensource.org/licenses/LGPL-3.0)
