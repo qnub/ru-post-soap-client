@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
 
-from datetime import datetime
 from collections import Iterable
+from datetime import datetime
 
 from suds.client import Client
 
 import settings
-
 
 RPOST_LOGIN = settings.RPOST_LOGIN
 RPOST_PASSWORD = settings.RPOST_PASSWORD
