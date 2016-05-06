@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
 
-from datetime import datetime
 from collections import Iterable
+from datetime import datetime
 
 from suds.client import Client
 
 import settings
-
 
 RPOST_LOGIN = settings.RPOST_LOGIN
 RPOST_PASSWORD = settings.RPOST_PASSWORD
@@ -45,8 +44,10 @@ RPOST_OPERCTGIDS = {
     2: u'Прибыло в место вручения',  # Партионный при 1 типе
     3: u'Прибыло в сортировочный центр',
     4: u'Покинуло сортировочный центр',
+    5: u'Прибыло в место международного обмена',
     6: u'Покинуло место международного обмена',
     8: u'Иное',
+    9: u'Адресат заберет отправление сам',
     10: u'Нет адресата',
 }
 
